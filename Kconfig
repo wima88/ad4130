@@ -2,3 +2,9 @@ menuconfig AD4130
     bool "AD4130"
     help
         "enable AD4130 driver"
+
+if AD4130
+config AD4130_FIFO_LEVEL
+    int "fifo water mark for interupt"
+    default 10
+endif
