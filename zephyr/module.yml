@@ -1,0 +1,10 @@
+# Copywrite @2024 Wimanshahb@gmail.com
+#
+#
+
+build:
+  cmake: .
+  Kconfig: Kconfig
+
+  settings:
+    dts_root: .
