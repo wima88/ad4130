@@ -1,0 +1,4 @@
+menuconfig AD4130
+    bool "AD4130"
+    help
+        "enable AD4130 driver"

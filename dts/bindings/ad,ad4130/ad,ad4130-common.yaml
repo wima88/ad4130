@@ -1,0 +1,9 @@
+# Copyright (c) 2024 wimanshahb@gmail.com
+# All rights reserved.
+
+properties:
+  
+    irq-gpios:
+      type: phandle-array
+      required: true
+      description: IRQ pin (active high)

@@ -1,0 +1,5 @@
+if(CONFIG_AD4130)
+    message(STATUS "adding AD4130")
+    target_include_directories(app PRIVATE .)
+    target_sources(app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/ad4130.c)
+endif()

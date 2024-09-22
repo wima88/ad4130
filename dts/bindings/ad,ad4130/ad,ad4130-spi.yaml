@@ -1,0 +1,6 @@
+# Copyright (c) 2024 wimanshahb@gmail.com
+# All rights reserved.
+
+description: driver for ad4130 ADC
+compatible: "ad,ad4130"
+include: ["spi-device.yaml","ad,ad4130-common.yaml"]
